@@ -1,5 +1,5 @@
 {
-  "name": "css-units",
+  "name": "css-units-list",
   "version": "0.0.0",
   "description": "List of CSS:Cascading Style Sheets Units",
   "keywords": [
@@ -7,7 +7,7 @@
     "unit",
     "list"
   ],
-  "repository": "fisker/css-units",
+  "repository": "fisker/css-units-list",
   "license": "MIT",
   "author": {
     "name": "fisker Cheung",

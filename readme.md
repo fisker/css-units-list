@@ -1,4 +1,4 @@
-# css-units
+# css-units-list
 
 > List of CSS:Cascading Style Sheets Units
 
@@ -7,17 +7,17 @@ Data from [CSS Values and Units Module Level 4](https://www.w3.org/TR/css-values
 ## Install
 
 ```bash
-yarn add css-units
+yarn add css-units-list
 
 # OR with npm
 
-npm install --save css-units
+npm install --save css-units-list
 ```
 
 ## Usage
 
 ```js
-import cssUnits from 'css-units'
+import cssUnits from 'css-units-list'
 
 console.log(cssUnits)
 
