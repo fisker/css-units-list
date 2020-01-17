@@ -14,7 +14,7 @@ const absoluteLengths = ['cm', 'mm', 'Q', 'in', 'pt', 'pc', 'px']
 const distanceUnits = [...relativeLengths, ...absoluteLengths]
 
 // https://www.w3.org/TR/css-values-4/#angles
-const angleUnits = ['cm', 'mm', 'Q', 'in', 'pt', 'pc', 'px']
+const angleUnits = ['deg', 'grad', 'rad', 'turn']
 
 // https://www.w3.org/TR/css-values-4/#time
 const durationUnits = ['s', 'ms']
@@ -34,3 +34,8 @@ const otherQuantities = [
 ]
 
 module.exports = [...distanceUnits, ...otherQuantities]
+module.exports.lengths = distanceUnits
+module.exports.angles = angleUnits
+module.exports.time = durationUnits
+module.exports.frequency = frequencyUnits
+module.exports.resolution = resolutionUnits
