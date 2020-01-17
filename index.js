@@ -34,8 +34,3 @@ const otherQuantities = [
 ]
 
 module.exports = [...distanceUnits, ...otherQuantities]
-module.exports.lengths = distanceUnits
-module.exports.angles = angleUnits
-module.exports.time = durationUnits
-module.exports.frequency = frequencyUnits
-module.exports.resolution = resolutionUnits
