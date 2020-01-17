@@ -21,5 +21,5 @@ import cssUnits from 'css-units-list'
 
 console.log(cssUnits)
 
-// => ['em', 'ex', 'cap', 'ch', ...]
+// => [ 'em', 'ex', 'cap', 'ch', 'ic', 'rem', 'lh', 'rlh', 'vw', 'vh', ...]
 ```
