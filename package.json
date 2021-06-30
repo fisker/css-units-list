@@ -51,7 +51,7 @@
     "@fisker/eslint-config": "6.0.1",
     "@fisker/husky-config": "4.0.5",
     "@fisker/lint-staged-config": "3.0.5",
-    "@fisker/prettier-config": "4.0.4",
+    "@fisker/prettier-config": "4.0.5",
     "cz-conventional-changelog": "3.3.0",
     "del-cli": "4.0.0",
     "eslint": "7.29.0",
