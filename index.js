@@ -1,5 +1,18 @@
 // https://www.w3.org/TR/css-values-4/#font-relative-lengths
-const fontRelativeLengths = ['em', 'ex', 'cap', 'ch', 'ic', 'rem', 'lh', 'rlh']
+const fontRelativeLengths = [
+  'em',
+  'rem',
+  'ex',
+  'rex',
+  'cap',
+  'rcap',
+  'ch',
+  'rch',
+  'ic',
+  'ric',
+  'lh',
+  'rlh',
+]
 
 // https://www.w3.org/TR/css-values-4/#viewport-relative-lengths
 const viewportPercentageLengths = ['vw', 'vh', 'vi', 'vb', 'vmin', 'vmax']
