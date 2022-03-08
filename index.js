@@ -36,7 +36,7 @@ const durationUnits = ['s', 'ms']
 const frequencyUnits = ['Hz', 'kHz']
 
 // https://www.w3.org/TR/css-values-4/#resolution
-const resolutionUnits = ['dpi', 'dpcm', 'dppx']
+const resolutionUnits = ['dpi', 'dpcm', 'dppx', 'x']
 
 // https://www.w3.org/TR/css-values-4/#other-units
 const otherQuantities = [
