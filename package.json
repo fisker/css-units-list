@@ -38,24 +38,16 @@
     "lint:package-json": "yarn run format:package-json --check",
     "lint:prettier": "prettier \"**/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml}\" --check",
     "release": "run-s lint test format dist",
-    "test": "node test.js"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "test": "node test.js",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.1",
-    "@fisker/commitlint-config": "2.0.2",
     "@fisker/eslint-config": "10.0.13",
     "@fisker/husky-config": "4.1.2",
     "@fisker/lint-staged-config": "3.1.4",
     "@fisker/prettier-config": "5.0.5",
-    "cz-conventional-changelog": "3.3.0",
     "del-cli": "4.0.1",
     "eslint": "8.10.0",
-    "esm": "3.2.25",
     "husky": "7.0.4",
     "lint-staged": "12.3.5",
     "markdownlint-cli": "0.31.1",
