@@ -14,7 +14,7 @@ module.exports = {
   extends: ['@fisker'],
   settings: {},
   rules: {
-    'node/no-unsupported-features/node-builtins': 'warn',
+    'n/no-unsupported-features/node-builtins': 'warn',
   },
   plugins: [],
   globals: {},
