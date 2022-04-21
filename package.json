@@ -20,11 +20,11 @@
     "url": "https://www.fiskercheung.com/"
   },
   "sideEffects": false,
+  "type": "module",
   "exports": "./index.js",
-  "main": "index.js",
-  "jsdelivr": "index.js",
-  "unpkg": "index.js",
-  "browser": "index.js",
+  "jsdelivr": "./index.js",
+  "unpkg": "./index.js",
+  "browser": "./index.js",
   "files": [
     "index.js"
   ],

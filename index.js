@@ -46,4 +46,16 @@ const otherQuantities = [
   ...resolutionUnits,
 ]
 
-module.exports = [...distanceUnits, ...otherQuantities]
+const allUnits = [...distanceUnits, ...otherQuantities]
+
+export default allUnits
+export {
+  fontRelativeLengths,
+  viewportPercentageLengths,
+  relativeLengths,
+  absoluteLengths,
+  angleUnits,
+  durationUnits,
+  frequencyUnits,
+  resolutionUnits,
+}

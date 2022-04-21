@@ -1,7 +1,15 @@
-const assert = require('assert')
-const fs = require('fs')
-const units = require('.')
+import assert from 'node:assert/strict'
+import cssUnits from './index.js'
+import * as namedExports from './index.js'
 
-assert.strict.ok(Array.isArray(units), 'CSS units should be an array.')
-assert.strict.ok(units.length !== 0, 'CSS units should not be empty.')
-assert.strict.ok(units.includes('px'), 'Git hooks should has `px`')
+assert.ok(Array.isArray(cssUnits), 'CSS units should be an array.')
+assert.ok(cssUnits.length !== 0, 'CSS units should not be empty.')
+assert.ok(cssUnits.includes('px'), 'Git hooks should has `px`')
+
+for (const [name, units] of Object.entries(namedExports)) {
+  assert.ok(Array.isArray(units), `'${name}' should be an array.`)
+  assert.ok(
+    units.every((unit) => cssUnits.includes(unit)),
+    `'${name}' should be a subset of all units.`,
+  )
+}
