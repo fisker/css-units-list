@@ -7,7 +7,7 @@ Data from [CSS Values and Units Module Level 4](https://www.w3.org/TR/css-values
 ## Install
 
 ```bash
-npm install --save css-units-list
+yarn add css-units-list
 ```
 
 ## Usage
