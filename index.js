@@ -1,21 +1,17 @@
 // https://www.w3.org/TR/css-values-4/#font-relative-lengths
-const fontRelativeLengths = [
-  'em',
-  'rem',
-  'ex',
-  'rex',
-  'cap',
-  'rcap',
-  'ch',
-  'rch',
-  'ic',
-  'ric',
-  'lh',
-  'rlh',
-]
+const fontRelativeLengths = ['em', 'ex', 'cap', 'ch', 'ic', 'lh'].flatMap(
+  (unit) => [unit, `r${unit}`],
+)
 
 // https://www.w3.org/TR/css-values-4/#viewport-relative-lengths
-const viewportPercentageLengths = ['vw', 'vh', 'vi', 'vb', 'vmin', 'vmax']
+const viewportPercentageLengths = [
+  'vw',
+  'vh',
+  'vi',
+  'vb',
+  'vmin',
+  'vmax',
+].flatMap((unit) => [unit, `s${unit}`, `l${unit}`, `d${unit}`])
 
 // https://www.w3.org/TR/css-values-4/#relative-lengths
 const relativeLengths = [...fontRelativeLengths, ...viewportPercentageLengths]
