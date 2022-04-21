@@ -12,6 +12,7 @@ test('Main', () => {
 for (const [name, units] of Object.entries(namedExports)) {
   test(`Named export '${name}'`, () => {
     assert.ok(Array.isArray(units), `'${name}' should be an array.`)
+    assert.ok(units.length !== 0, `'${name}' should not be empty.`)
     assert.ok(
       units.every((unit) => cssUnits.includes(unit)),
       `'${name}' should be a subset of all units.`,
