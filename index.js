@@ -42,7 +42,14 @@ const otherQuantities = [
   ...resolutionUnits,
 ]
 
-const allUnits = [...distanceUnits, ...otherQuantities]
+// https://drafts.csswg.org/css-contain-3/#container-lengths
+const containerRelativeLengths = ['cqw', 'cqh', 'cqi', 'cqb', 'cqmin', 'cqmax']
+
+const allUnits = [
+  ...distanceUnits,
+  ...otherQuantities,
+  ...containerRelativeLengths,
+]
 
 export default allUnits
 export {
@@ -54,4 +61,6 @@ export {
   durationUnits,
   frequencyUnits,
   resolutionUnits,
+  containerRelativeLengths,
+  containerRelativeLengths as containerQueryLengthUnits,
 }
