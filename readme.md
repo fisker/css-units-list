@@ -30,5 +30,7 @@ import {
   durationUnits,
   frequencyUnits,
   resolutionUnits,
+  containerRelativeLengths,
+  containerQueryLengthUnits, // Alias of `containerRelativeLengths`
 } from 'css-units-list'
 ```
