@@ -48,7 +48,7 @@
     "test": "node test.js"
   },
   "devDependencies": {
-    "@fisker/eslint-config": "10.1.5",
+    "@fisker/eslint-config": "10.2.4",
     "@fisker/husky-config": "4.1.2",
     "@fisker/lint-staged-config": "3.1.5",
     "@fisker/markdownlint-cli2-config": "0.0.3",
