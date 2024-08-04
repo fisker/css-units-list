@@ -54,7 +54,7 @@
     "@fisker/markdownlint-cli2-config": "0.0.3",
     "@fisker/prettier-config": "5.1.1",
     "del-cli": "5.1.0",
-    "eslint": "8.39.0",
+    "eslint": "9.8.0",
     "husky": "9.1.4",
     "lint-staged": "15.2.8",
     "markdownlint-cli": "0.41.0",
