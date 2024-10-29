@@ -44,7 +44,7 @@
     "lint:package-json": "yarn run fix:package-json --check",
     "lint:prettier": "prettier . --check",
     "prepare": "husky install",
-    "release": "run-s lint test format dist",
+    "release": "run-s lint test fix dist",
     "test": "node test.js"
   },
   "devDependencies": {
