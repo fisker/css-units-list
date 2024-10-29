@@ -45,7 +45,6 @@ const otherQuantities = [
 // https://drafts.csswg.org/css-conditional-5/#container-lengths
 const containerRelativeLengths = ['cqw', 'cqh', 'cqi', 'cqb', 'cqmin', 'cqmax']
 
-
 // https://www.w3.org/TR/css-grid-2/#fr-unit
 const flexibleLengths = ['fr']
 
@@ -68,5 +67,5 @@ export {
   resolutionUnits,
   containerRelativeLengths,
   containerRelativeLengths as containerQueryLengthUnits,
-  flexibleLengths
+  flexibleLengths,
 }
