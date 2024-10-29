@@ -32,5 +32,6 @@ import {
   resolutionUnits,
   containerRelativeLengths,
   containerQueryLengthUnits, // Alias of `containerRelativeLengths`
+  flexibleLengths,
 } from 'css-units-list'
 ```

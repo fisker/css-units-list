@@ -42,13 +42,18 @@ const otherQuantities = [
   ...resolutionUnits,
 ]
 
-// https://drafts.csswg.org/css-contain-3/#container-lengths
+// https://drafts.csswg.org/css-conditional-5/#container-lengths
 const containerRelativeLengths = ['cqw', 'cqh', 'cqi', 'cqb', 'cqmin', 'cqmax']
+
+
+// https://www.w3.org/TR/css-grid-2/#fr-unit
+const flexibleLengths = ['fr']
 
 const allUnits = [
   ...distanceUnits,
   ...otherQuantities,
   ...containerRelativeLengths,
+  ...flexibleLengths,
 ]
 
 export default allUnits
@@ -63,4 +68,5 @@ export {
   resolutionUnits,
   containerRelativeLengths,
   containerRelativeLengths as containerQueryLengthUnits,
+  flexibleLengths
 }
