@@ -59,7 +59,7 @@
     "npm-run-all2": "7.0.1",
     "prettier": "3.3.3",
     "release-it": "20.2.1",
-    "sort-package-json": "2.10.1",
+    "sort-package-json": "4.0.0",
     "write-prettier-file": "3.0.3"
   },
   "packageManager": "yarn@4.17.1",
