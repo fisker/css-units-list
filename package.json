@@ -52,11 +52,13 @@
     "@fisker/lint-staged-config": "3.3.2",
     "@fisker/markdownlint-cli2-config": "0.0.3",
     "@fisker/prettier-config": "5.1.1",
+    "@fisker/release-it-config": "6.0.2",
     "del-cli": "6.0.0",
     "eslint": "9.13.0",
     "markdownlint-cli2": "0.14.0",
     "npm-run-all2": "7.0.1",
     "prettier": "3.3.3",
+    "release-it": "20.2.1",
     "sort-package-json": "2.10.1",
     "write-prettier-file": "3.0.3"
   },
