@@ -1,3 +1,3 @@
-import fiskerEslintConfig from '@fisker/eslint-config';
+import fiskerEslintConfig from '@fisker/eslint-config'
 
-export default [...fiskerEslintConfig];
+export default [...fiskerEslintConfig]

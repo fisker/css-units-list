@@ -1,1 +1,1 @@
-module.exports = require('@fisker/release-it-config');
+module.exports = require('@fisker/release-it-config')

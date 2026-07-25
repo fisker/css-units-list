@@ -24,9 +24,9 @@ yarn add css-units-list
 ## Usage
 
 ```js
-import cssUnits from "css-units-list";
+import cssUnits from 'css-units-list'
 
-console.log(cssUnits);
+console.log(cssUnits)
 
 // => [ 'em', 'rem', 'ex', 'rex', 'cap', 'rcap', ...]
 ```
@@ -44,5 +44,5 @@ import {
   containerRelativeLengths,
   containerQueryLengthUnits, // Alias of `containerRelativeLengths`
   flexibleLengths,
-} from "css-units-list";
+} from 'css-units-list'
 ```
