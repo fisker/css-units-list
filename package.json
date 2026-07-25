@@ -26,13 +26,14 @@
   "unpkg": "./index.js",
   "browser": "./index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
     "clean": "run-p \"clean:*\"",
     "clean:dist": "del-cli dist",
     "dist": "run-p \"dist:*\"",
-    "dist:npm": "np --yolo --no-yarn",
+    "dist:npm": "release-it",
     "fix": "run-p \"fix:*\"",
     "fix:eslint": "yarn lint:eslint --fix",
     "fix:markdown": "markdownlint-cli2 --fix",
