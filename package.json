@@ -53,7 +53,7 @@
     "@fisker/prettier-config": "6.0.1",
     "@fisker/release-it-config": "6.0.2",
     "del-cli": "7.0.0",
-    "eslint": "9.39.5",
+    "eslint": "10.8.0",
     "markdownlint-cli2": "0.23.1",
     "npm-run-all2": "9.0.2",
     "prettier": "3.9.6",
