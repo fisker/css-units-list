@@ -57,15 +57,15 @@ const allUnits = [
 
 export default allUnits
 export {
-  fontRelativeLengths,
-  viewportPercentageLengths,
-  relativeLengths,
   absoluteLengths,
   angleUnits,
-  durationUnits,
-  frequencyUnits,
-  resolutionUnits,
-  containerRelativeLengths,
   containerRelativeLengths as containerQueryLengthUnits,
+  containerRelativeLengths,
+  durationUnits,
   flexibleLengths,
+  fontRelativeLengths,
+  frequencyUnits,
+  relativeLengths,
+  resolutionUnits,
+  viewportPercentageLengths,
 }

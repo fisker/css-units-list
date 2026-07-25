@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import cssUnits from './index.js'
 import * as namedExports from './index.js'
+import cssUnits from './index.js'
 
 test('Main', () => {
   assert.ok(Array.isArray(cssUnits), 'CSS units should be an array.')
