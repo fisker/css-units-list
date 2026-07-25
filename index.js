@@ -1,7 +1,7 @@
 // https://www.w3.org/TR/css-values-4/#font-relative-lengths
 const fontRelativeLengths = ['em', 'ex', 'cap', 'ch', 'ic', 'lh'].flatMap(
   (unit) => [unit, `r${unit}`],
-)
+);
 
 // https://www.w3.org/TR/css-values-4/#viewport-relative-lengths
 const viewportPercentageLengths = [
@@ -11,28 +11,28 @@ const viewportPercentageLengths = [
   'vb',
   'vmin',
   'vmax',
-].flatMap((unit) => [unit, `s${unit}`, `l${unit}`, `d${unit}`])
+].flatMap((unit) => [unit, `s${unit}`, `l${unit}`, `d${unit}`]);
 
 // https://www.w3.org/TR/css-values-4/#relative-lengths
-const relativeLengths = [...fontRelativeLengths, ...viewportPercentageLengths]
+const relativeLengths = [...fontRelativeLengths, ...viewportPercentageLengths];
 
 // https://www.w3.org/TR/css-values-4/#absolute-lengths
-const absoluteLengths = ['cm', 'mm', 'Q', 'in', 'pt', 'pc', 'px']
+const absoluteLengths = ['cm', 'mm', 'Q', 'in', 'pt', 'pc', 'px'];
 
 // https://www.w3.org/TR/css-values-4/#lengths
-const distanceUnits = [...relativeLengths, ...absoluteLengths]
+const distanceUnits = [...relativeLengths, ...absoluteLengths];
 
 // https://www.w3.org/TR/css-values-4/#angles
-const angleUnits = ['deg', 'grad', 'rad', 'turn']
+const angleUnits = ['deg', 'grad', 'rad', 'turn'];
 
 // https://www.w3.org/TR/css-values-4/#time
-const durationUnits = ['s', 'ms']
+const durationUnits = ['s', 'ms'];
 
 // https://www.w3.org/TR/css-values-4/#frequency
-const frequencyUnits = ['Hz', 'kHz']
+const frequencyUnits = ['Hz', 'kHz'];
 
 // https://www.w3.org/TR/css-values-4/#resolution
-const resolutionUnits = ['dpi', 'dpcm', 'dppx', 'x']
+const resolutionUnits = ['dpi', 'dpcm', 'dppx', 'x'];
 
 // https://www.w3.org/TR/css-values-4/#other-units
 const otherQuantities = [
@@ -40,22 +40,22 @@ const otherQuantities = [
   ...durationUnits,
   ...frequencyUnits,
   ...resolutionUnits,
-]
+];
 
 // https://drafts.csswg.org/css-conditional-5/#container-lengths
-const containerRelativeLengths = ['cqw', 'cqh', 'cqi', 'cqb', 'cqmin', 'cqmax']
+const containerRelativeLengths = ['cqw', 'cqh', 'cqi', 'cqb', 'cqmin', 'cqmax'];
 
 // https://www.w3.org/TR/css-grid-2/#fr-unit
-const flexibleLengths = ['fr']
+const flexibleLengths = ['fr'];
 
 const allUnits = [
   ...distanceUnits,
   ...otherQuantities,
   ...containerRelativeLengths,
   ...flexibleLengths,
-]
+];
 
-export default allUnits
+export default allUnits;
 export {
   fontRelativeLengths,
   viewportPercentageLengths,
@@ -68,4 +68,4 @@ export {
   containerRelativeLengths,
   containerRelativeLengths as containerQueryLengthUnits,
   flexibleLengths,
-}
+};
