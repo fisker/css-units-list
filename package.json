@@ -45,7 +45,8 @@
     "lint:prettier": "prettier . --check",
     "prepare": "husky install",
     "release": "run-s lint test fix dist",
-    "test": "node test.js"
+    "test": "node test.js",
+    "test-coverage": "node test.js"
   },
   "devDependencies": {
     "@fisker/eslint-config": "13.1.1",
@@ -63,7 +64,7 @@
     "sort-package-json": "2.10.1",
     "write-prettier-file": "3.0.3"
   },
-  "packageManager": "yarn@4.5.1",
+  "packageManager": "yarn@4.17.1",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
